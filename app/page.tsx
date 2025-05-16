@@ -1,11 +1,10 @@
-import { parisienne } from '@/app/fonts';
 import SectionHeader from './ui/section-header';
+import Header from './ui/header';
 
 export default function Home() {
   return (
     <main>
-      <h1 className={`${parisienne.className}`}>CineFiles</h1>
-      <p>Movie reviews and essays</p>
+      <Header />
       <SectionHeader title="Latest Reviews" />
     </main>
   );
